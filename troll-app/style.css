@@ -1,0 +1,38 @@
+body {
+
+    display: flex;
+    transition: 750ms;
+    background-color: #4c4c4c;
+
+}
+
+.txt {
+    color: #ffff;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.box {
+        margin: auto;
+        width: 50%;
+        padding: 10px;
+        text-align: center;
+}
+
+#title {
+    font-size: 5vw;
+}
+
+#download-link {
+    font-size: 2.5vw;
+    text-decoration: none;
+}
+
+#download-link:hover {
+    transition: 100ms;
+    font-size: 2.75vw;
+}
+
+.list {
+    padding: 2vw;
+}

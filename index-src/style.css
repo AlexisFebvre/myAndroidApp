@@ -1,0 +1,36 @@
+body {
+    background-color: #4c4c;
+    display: flex;
+
+}
+
+.txt {
+    color: #ffff;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#title {
+    font-size: 5vw;
+}
+
+.box {
+        margin: auto;
+        width: 50%;
+        padding: 10px;
+        text-align: center;
+}
+
+#link {
+    transition: 100ms;
+    font-size: 2.5vw;
+    text-decoration: none;
+}
+
+#link:hover {
+    transition: 100ms;
+    font-size: 2.75vw;
+}
+
+.list {
+    padding: 2vw;
+}

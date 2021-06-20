@@ -1,0 +1,18 @@
+body {
+    background-color: #4c4c;
+    display: flex;
+
+}
+
+.txt {
+    color: #ffff;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.box {
+        margin: auto;
+        width: 50%;
+        padding: 10px;
+        text-align: center;
+}
