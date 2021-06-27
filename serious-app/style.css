@@ -1,6 +1,8 @@
 body {
-    background-color: #4c4c;
+
     display: flex;
+    transition: 750ms;
+    background-color: #4c4c4c;
 
 }
 
@@ -15,4 +17,22 @@ body {
         width: 50%;
         padding: 10px;
         text-align: center;
+}
+
+#title {
+    font-size: 5vw;
+}
+
+#download-link {
+    font-size: 2.5vw;
+    text-decoration: none;
+}
+
+#download-link:hover {
+    transition: 100ms;
+    font-size: 2.75vw;
+}
+
+.list {
+    padding: 2vw;
 }
